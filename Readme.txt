@@ -51,27 +51,32 @@ Ref_author | name
 
 --------- ENGLISH ----------
 
-The following application has been developed by Clara Sánchez, María del Mar Rondón, and Alejandro Royo (@alexroyoar). Its objective is to provide a query service to a SQL-type database of scientific 
+The following application has been developed by Clara Sánchez, María del Mar Rondón, and Alejandro Royo (@alexroyoar). 
+Its objective is to provide a query service to a SQL-type database of scientific 
 articles.
 
-The application, which represents a graphical interface developed in the Java language, allows external users to make quick queries (two of them are already predefined) to the aforementioned database 
+The application, which represents a graphical interface developed in the Java language, allows external users to make quick 
+queries (two of them are already predefined) to the aforementioned database 
 without having to directly use a database management system.
 
 The application is composed of three tabs, which will be explained below:
 
-1. "Productivity" Tab: It mainly consists of a text input box at the top and a table to display the query output at the bottom. The query is already predefined, so the user only needs to enter the name 
-or last name of the author of interest, press "enter," and the application will show the output. The query calculates the weighted productivity of each scientific author. The query returns three 
-columns: the first corresponds to all authors whose name or last name contains the character or string entered by the user. The second, named "articles," contains the number of articles produced by each 
+1. "Productivity" Tab: It mainly consists of a text input box at the top and a table to display the query output at the bottom. The query 
+is already predefined, so the user only needs to enter the name or last name of the author of interest, press "enter," and the application 
+will show the output. The query calculates the weighted productivity of each scientific author. The query returns three columns: the first corresponds 
+to all authors whose name or last name contains the character or string entered by the user. The second, named "articles," contains the number of articles produced by each 
 author in absolute terms. Finally, the "Factor" variable contains the productivity index corresponding to each author.
 
-2. "Collaboration" Tab: Its operation and design are exactly the same as the previous tab, with the difference that this one is designed to display the collaborations of the author entered by the user 
-in the text box instead of the productivity index. Once the user has entered an author and presses the return key, they will get a response in the GUI table in the form of two columns: Firstly, with the 
-"Author" field, all authors matching the searched author will be displayed. Secondly, the "published articles" column will return the name of the specific article resulting from a collaboration. There 
-will be an instance for each article where the author has collaborated, so if an author has published many articles with other co-authors, the application will return an instance showing each of them on 
+2. "Collaboration" Tab: Its operation and design are exactly the same as the previous tab, with the difference that this one is designed to display the 
+collaborations of the author entered by the user in the text box instead of the productivity index. Once the user has entered an author and presses the return key, 
+they will get a response in the GUI table in the form of two columns: Firstly, with the "Author" field, all authors matching the searched author will be displayed. 
+Secondly, the "published articles" column will return the name of the specific article resulting from a collaboration. There will be an instance for each article where 
+the author has collaborated, so if an author has published many articles with other co-authors, the application will return an instance showing each of them on 
 a different line.
 
-3. "General" Tab: It is a bit different from the other two tabs. It contains a larger text input box, and below it is the table that will return the query. This tab allows the user to enter any SQL code 
-query, and the application will immediately return the result. This tab can be very useful, especially in cases where the user wants to perform a query that is not predefined. For example, they can 
+3. "General" Tab: It is a bit different from the other two tabs. It contains a larger text input box, and below it is the table that will return the query. 
+This tab allows the user to enter any SQL code query, and the application will immediately return the result. This tab can be very useful, especially in cases 
+where the user wants to perform a query that is not predefined. For example, they can 
 enter: 
 
 -------
