@@ -8,7 +8,7 @@ For more information, you can check the [Readme.txt](https://github.com/alexroyo
 This are two screenshots that shows the interface:
 
 Productivity:
-![](https://github.com/alexroyoar/guiDB/blob/development/Productivity.jpeg)
+![](https://github.com/alexroyoar/guiDB/blob/development/productividad.jpeg)
 
 General:
 ![](https://github.com/alexroyoar/guiDB/blob/development/general.jpeg)
