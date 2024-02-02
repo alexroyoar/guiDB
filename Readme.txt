@@ -1,8 +1,11 @@
 ------ ESPAÑOL --------
 
-La siguiente aplicación ha sido desarrollada por Clara Sánchez, María del Mar Rondón y Alejandro Royo (@alexroyoar). El objetivo de la misma es prestar un servicio de consulta a una base de datos de artículos científicos de tipo SQL. 
+La siguiente aplicación ha sido desarrollada por Clara Sánchez, María del Mar Rondón y Alejandro Royo (@alexroyoar). 
+El objetivo de la misma es prestar un servicio de consulta a una base de datos de artículos científicos de tipo SQL. 
 
-La aplicación, que supone una interfaz gráfica desarrollada en lenguaje Java, permite a usuarios externos hacer consultas rápidas (dos de ellas están ya predefinidas) a la base de datos antes mencionada sin tener que utilizar directamente un gestor de bases de datos. 
+La aplicación, que supone una interfaz gráfica desarrollada en lenguaje Java, permite a usuarios externos hacer consultas 
+rápidas (dos de ellas están ya predefinidas) a la base de datos antes mencionada sin tener que utilizar directamente un gestor 
+de bases de datos. 
 
 La aplicación está compuesta por tres pestañas que procederán a explicarse a continuación:
 
